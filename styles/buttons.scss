@@ -3,8 +3,17 @@
     transition: var(--transition);
     border-radius: 10px;
     font: var(---smaller-font);
+    cursor: pointer;
 
     &:hover, &:active, &:focus {
         border-color: var(--violet-color);
+    }
+
+    &--round {
+        --size: 40px
+
+        height: var(--size);
+        width: var(--size);
+        border-radius: 50%;
     }
 }

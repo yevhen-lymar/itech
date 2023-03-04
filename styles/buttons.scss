@@ -1,0 +1,10 @@
+.button {
+    border: 1px solid var(--grey-color);
+    transition: var(--transition);
+    border-radius: 10px;
+    font: var(---smaller-font);
+
+    &:hover, &:active, &:focus {
+        border-color: var(--violet-color);
+    }
+}

@@ -1,7 +1,7 @@
 .link {
     color: var(--black-color);
     transition: var(--transition);
-    font-weight: 700;
+    font-weight: bold;
 
     &:hover, &:active, &:focus {
     color: var(--violet-color);

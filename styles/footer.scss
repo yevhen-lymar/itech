@@ -1,0 +1,22 @@
+footer {
+    .footer__container, .footer__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: var(--gap);
+    }
+
+    .footer__language {
+        width: 208px;
+    }
+    .footer__buttons {
+        display: flex;
+        gap: var(--gap);
+    }
+}

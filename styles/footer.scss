@@ -1,7 +1,6 @@
 footer {
     position: relative;
     margin-top: auto;
-    margin-bottom: 0;
     background-color: var(--creame-color);
     
     .footer__wave {
@@ -40,9 +39,10 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-.footer__top{
+
+    .footer__top {
     gap: var(--gap);
-}
+}   
 
     .footer__center {
         width: 100%;
@@ -64,8 +64,13 @@ footer {
       }
     
       .footer__bottom {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         a {
-          text-decoration: underline;
+            text-decoration: underline;
         }
       }
 }

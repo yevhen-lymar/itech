@@ -1,18 +1,25 @@
 @use "./styles/global.scss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 
 html {
  background-color: var(--white-color);
  color: var(--black-color);
+ font: var(--font);
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 body, ul, li, p, h1, h2, h3, h4, h5, h6, button {
     margin: 0;
     padding: 0;
 }
 a {
     text-decoration: none;
+    transition: var(--transition);
 }
 
 button {
@@ -23,4 +30,7 @@ button {
 
 li {
     list-style: none;
+}
+main {
+    margin-bottom: 169px;
 }

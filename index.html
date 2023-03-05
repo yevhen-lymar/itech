@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.scss" />
-    <title>Vite App</title>
+    <title>Itech</title>
   </head>
   <body>
     <div class="top-banner"></div>
@@ -49,7 +49,27 @@
               />
             </svg>
           </button>
-          <button class="button">Join Itech Hub -</button>
+          <button class="header__lang">
+            <img src="./assets/images/english.png" alt="English language" />
+            &nbsp;&nbsp;English &nbsp;&nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </button>
+          <div class="header__langs">
+            <a href="#" class="english">English</a>
+            <a href="#" class="ukrainian">Ukrainian</a>
+          </div>
         </div>
       </div>
     </header>
@@ -58,8 +78,11 @@
     </main>
     <footer>
       <div class="container footer__container">
+        <div class="footer__wave"></div>
         <div class="footer__top">
-          <p>Ready To Download</p>
+          <p class="text_biggest">
+            Ready To <span class="text_gradient">Download</span>
+          </p>
           <p>
             Discover your new favorite spaces, from Sao Paulo to Seoul. Downloud
             from App Store or Google Play.
@@ -107,38 +130,57 @@
               &nbsp;&nbsp;|&nbsp;&nbsp;Download on Google Play
             </a>
           </div>
-          <div class="footer__center">
-            <a href="#"
-              ><img class="logo" src="./assets/images/logo.png" alt="logo"
-            /></a>
-            <nav class="navigation">
-              <ul>
-                <li>
-                  <a class="link" href="./pages/about/index.html">About</a>
-                </li>
-                <li>
-                  <a class="link" href="./pages/product/index.html">Product</a>
-                </li>
-                <li>
-                  <a class="link" href="./pages/services/index.html"
-                    >Services</a
-                  >
-                </li>
-                <li><a class="link" href="./pages/shop/index.html">Shop</a></li>
-                <li>
-                  <a class="link" href="./pages/project/index.html">Project</a>
-                </li>
-                <li><a class="link" href="./pages/post/index.html">Post</a></li>
-                <li><a class="link" href="./pages/portfolio/">Portfolio</a></li>
-                <li><a class="link" href="./pages/blog/index.html">Blog</a></li>
-                <li>
-                  <a class="link" href="./pages/contact/index.html">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="footer__language">1</div>
-          </div>
-          <div class="footer__bottom"></div>
+        </div>
+        <div class="footer__center">
+          <a href="#"
+            ><img class="logo" src="./assets/images/logo.png" alt="logo"
+          /></a>
+          <nav class="navigation">
+            <ul>
+              <li>
+                <a class="link" href="./pages/about/index.html">About</a>
+              </li>
+              <li>
+                <a class="link" href="./pages/product/index.html">Product</a>
+              </li>
+              <li>
+                <a class="link" href="./pages/services/index.html">Services</a>
+              </li>
+              <li><a class="link" href="./pages/shop/index.html">Shop</a></li>
+              <li>
+                <a class="link" href="./pages/project/index.html">Project</a>
+              </li>
+              <li><a class="link" href="./pages/post/index.html">Post</a></li>
+              <li><a class="link" href="./pages/portfolio/">Portfolio</a></li>
+              <li><a class="link" href="./pages/blog/index.html">Blog</a></li>
+              <li>
+                <a class="link" href="./pages/contact/index.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="pages/contact/index.html" class="button footer__button">
+            Join Itech Hub&nbsp;&nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="footer__bottom">
+          © 2022 Copyrights by <a href="#" class="link">Iteck Co.</a> All Rights
+          Reserved. Designed by
+          <a class="link" href="https://github.com/yevhen-lymar" target="_blank"
+            >yevhen-lymar</a
+          >
         </div>
       </div>
     </footer>

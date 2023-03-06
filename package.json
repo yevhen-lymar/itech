@@ -1,6 +1,6 @@
 {
   "name": "itech",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "scripts": {
     "start": "vite --open",
@@ -8,7 +8,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "node": "^18.14.2",
     "sass": "^1.58.3",
     "vite": "^4.1.0"
   }

@@ -5,8 +5,7 @@
   "scripts": {
     "start": "vite --open",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "yarn start"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "node": "^19.6.1",

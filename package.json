@@ -9,6 +9,7 @@
     "predeploy": "yarn start"
   },
   "devDependencies": {
+    "node": "^19.6.1",
     "sass": "^1.58.3",
     "vite": "^4.1.0"
   }

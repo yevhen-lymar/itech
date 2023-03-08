@@ -5,7 +5,8 @@
   "scripts": {
     "start": "vite --open",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn start"
   },
   "devDependencies": {
     "sass": "^1.58.3",
